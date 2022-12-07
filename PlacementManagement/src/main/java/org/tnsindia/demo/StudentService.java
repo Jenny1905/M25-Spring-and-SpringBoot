@@ -17,7 +17,8 @@ is used*/
 @Service
 @Transactional
 public class StudentService {
- 
+	/*Spring @Autowired annotation is used for automatic dependency injection. Spring framework is built 
+	on dependency injection and we inject the class dependencies through spring bean configuration file*/
     @Autowired
     private StudentRepository repi;
      //to retrieve all the records
